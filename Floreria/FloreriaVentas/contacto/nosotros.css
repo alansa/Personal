@@ -1,0 +1,49 @@
+/***********************************************/
+/********ESTILOS DE LA PAGINA DE NOSOTROS*******/
+/***********************************************/
+
+button{
+	background-color: white;
+	border-radius: 10px;
+	font-family: Baskerville, Georgia, serif;
+	font-size: 17px;
+	font-weight: bold;
+	height: 40px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding:0px 20px 0px 10px;
+	color: #FE2E64;
+	width: 200px;
+}
+
+button:hover{
+
+	background-color: pink;
+	
+}
+
+button:visited{
+
+	background-color: pink;
+
+}
+
+nav{
+	background-color: #FE2E64;
+	border-radius: 10px;
+	margin-top: 10px;
+	margin-left: 120px;
+	text-align: center;
+	padding: 1px;
+	width: 650px;
+}
+
+p{
+	background-color: pink;
+	border-radius: 5px;
+	font-family: Baskerville, Georgia, serif;
+	font-size: 20px;
+	height: auto;
+	margin-left: 120px;
+	width: 650px;
+}

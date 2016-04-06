@@ -1,0 +1,112 @@
+/***********************************************/
+/********ESTILOS DE LA PAGINA DE CONTACTO*******/
+/***********************************************/
+
+/*Horizontal servira para colocar ambos section al mismo nivel */
+
+#horizontal{
+	display: -webkit-box;
+    display: -khtml-box;
+    display: -moz-box;
+    display: -ms-box;
+    display: -o-box;
+    display: box;
+    -webkit-box-orient: horizontal;
+    -khtml-box-orient: horizontal;
+    -moz-box-orient: horizontal;
+    -ms-box-orient: horizontal;
+    -o-box-orient: horizontal;
+    box-orient: horizontal;
+}
+    
+
+/*Caracteristicas del section del formulario*/
+#formulario{
+	background: pink;
+	border-radius: 10px;
+	float: right;
+	height: auto;
+	margin-top: 20px;
+	margin-left: 40px;
+	margin-right: auto;
+	padding: 20px;
+	padding-top: 10px;
+	width: 400px;
+}
+
+/*****caracteristicas del texto antes de los cuadros de texto*****/
+section label{
+	float: left;
+	height: 20px;
+	margin-right: 10px;
+	text-align: right;
+	width: 100px;
+}
+
+/*****caracteristicas de los cuadros de texto*****/
+section input {
+	border: C0DEDE 1px solid;
+	height: 25px;
+	margin: 0px 0px 0px 20px;
+	outline-color: white;
+	width: 200px;
+}
+
+/*****caracteristicas al hacer click a los cuadros de texto*****/
+section input: focus{
+	box-shadow: 0px 0px 20px white;
+}
+
+/*****caracteristicas del texto dentro de los cuadros*****/
+input::-webkit-input-placeholder {
+  text-align: center;
+}
+input:-moz-placeholder {
+  text-align: center;
+}
+input:-ms-input-placeholder {
+  text-align: center;
+}
+
+/*****caracteristicas del texto dentro de los cuadros*****/
+textarea::-webkit-textarea-placeholder {
+  text-align: center;
+}
+textarea:-moz-placeholder {
+  text-align: center;
+}
+textarea:-ms-textarea-placeholder {
+  text-align: center;
+}
+
+/*Caracteristicas del cuadro de la imagen*/
+#mapa{
+	border: #F7819F 5px groove;
+	margin-top: 30px;
+	height: auto;
+}
+
+#info{
+	background: pink;
+	font-family: Baskerville, Georgia, serif;
+	font-size: 17px;
+	font-weight: bold;
+	height: auto;
+	margin-top: 10px;
+}
+
+#letra{
+	font-family: Baskerville, Georgia, serif;
+	font-size: 17px;
+	font-weight: bold;
+}
+
+#boton{
+	color: gray;
+	font-color:white;
+	font-family: Baskerville, Georgia, serif;
+	font-size: 17px;
+	font-weight: bold;
+	height: 40px;
+	padding: 5px;
+}

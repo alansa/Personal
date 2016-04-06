@@ -1,0 +1,82 @@
+/*****caracteristicas de la sección del formulario*****/
+#sectionleft{
+	background: pink;
+	border-radius: 10px;
+	float: left;
+	height: auto;
+	margin-top: 10px;
+	margin-left: 40px;
+	margin-right: auto;
+	padding: 20px;
+	padding-top: 10px;
+	width: 550px;
+}
+/*****caracteristicas del texto antes de los cuadros de texto*****/
+section label{
+	float: left;
+	height: 20px;
+	margin-right: 10px;
+	text-align: right;
+	width: 200px;
+}
+
+/*****caracteristicas de los cuadros de texto*****/
+section input {
+	border: C0DEDE 1px solid;
+	height: 25px;
+	margin: 0px 0px 0px 20px;
+	outline-color: white;
+	width: 260px;
+}
+
+/*****caracteristicas al hacer click a los cuadros de texto*****/
+section input: focus{
+	box-shadow: 0px 0px 20px white;
+}
+
+/*****caracteristicas del texto dentro de los cuadros*****/
+input::-webkit-input-placeholder {
+  text-align: center;
+}
+input:-moz-placeholder {
+  text-align: center;
+}
+input:-ms-input-placeholder {
+  text-align: center;
+}
+
+
+/*****caracteristicas de los selectores*****/
+section select{
+	border: C0DEDE 2px solid;
+	height: 25px;
+	margin: 0px 0px 0px 20px;
+	outline-color: white;
+	width: 100px;
+}
+
+/*****caracteristicas de los titulos h1*****/
+#tituloh1{
+	text-align: center;
+}
+
+/*****caracteristicas del boton*****/
+#boton{
+	background: gray;
+	border: 1px solid black;
+	color:white;
+	float: left;
+	font-weight: bold;
+	height: 20px;
+	margin-left: 140px;
+	margin-right:  20px;
+	padding: 5px;
+	text-align: center;
+	text-decoration: none;	
+}
+
+#info{
+	margin-left: 5px;
+	margin-right: 5px;
+
+}

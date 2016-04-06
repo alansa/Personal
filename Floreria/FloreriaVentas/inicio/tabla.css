@@ -1,0 +1,35 @@
+/*
+******Podriamos usar la etiqueta table, pero no es recomendable
+  porque si alguien llega a agregar otra tabla se verá afectada
+  con nuestros estilos*****************************************
+
+table{
+	border:1px solid black;
+	border-spacing: ;
+}*/
+
+
+/*Así que por esa razón usaremos un "id", no será en un class
+	porque asi el estilo se respetará solo para tu página y 
+	solo la podras editar tu, para esta página*/
+
+#tabla{      /*Esto se agregara a la tabla así ---> <table id="tabla">*/
+	/*border:1px solid black; /*  Esto despues se lo quitamos, por ahora solo es para 
+							ir identificando cada celda*/			
+	border-spacing: 5px;	/*Espacio que separa a las celdas de la tabla*/
+	width:900px;			/*El ancho de la tabla*/
+}
+
+/*Estas serán las caracteristicas de la etiqueta td la llame así "celda"
+  la pondre de diferente color solo para diferenciarla del marco de la tabla*/
+#celda{
+	/*border: 1px solid black;*/
+	height: 101px;
+	padding: 5px;
+	text-align: center;
+
+}
+
+#imagen{
+	width: 120px;
+}
