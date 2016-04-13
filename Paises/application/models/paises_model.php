@@ -15,8 +15,7 @@ class paises_model extends CI_Model{
         $result= $this->db->get();
         
         return $result->result_array();//todas las filas
-      //   return $result->row_array();//fila
-        
+      //   return $result->row_array();//fila       
     }
     
     public function deleteCountry($id){
@@ -24,4 +23,6 @@ class paises_model extends CI_Model{
         $this->db->delete('paises', array('id' => $id)); 
         
     }
+   
+    
 }
